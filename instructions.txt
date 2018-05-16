@@ -1,0 +1,33 @@
+Commands ::
+
+>> block client_name
+>> unblock client_name
+>> ping client_name :: Checks the status of the other client,i.e, whether you can message him or not,or is he online or not
+>> whoelse
+>> wholasthr
+>> message client_name message_content
+>> broadcast message_content
+>> offline :: checks offline messages
+>> logout
+
+Additional features implemented
+
+>> create group <group_name> <member1> <member2> ....
+
+Every client can create own group,i.e, it has the feature of selective broadcasting.Instead of sending message to all the clients he can create a group a send message to a particular set of clients.
+
+>> message group <group_name> <message_content>
+
+ Instead of sending message to all the clients he can create a group a send message to a particular set of clients.
+ 
+ 
+>> grouplist
+
+This lists all the groups in which the client is a member.
+For ex :
+Groups in which a is a member are
+
+group1 :: a b c 
+group2 :: a d e
+group3 :: a d f g k
+
